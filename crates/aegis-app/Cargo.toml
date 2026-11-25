@@ -1,0 +1,12 @@
+[package]
+name = "aegis-app"
+version = "1.0.0"
+edition = "2021"
+authors = ["NovaOS Enterprise Architecture Team"]
+description = "Aegis CLI & Desktop Application: Sovereign Firmware & Hardware Security Studio"
+
+[dependencies]
+aegis-core = { path = "../aegis-core" }
+aegis-storage = { path = "../aegis-storage" }
+aegis-render = { path = "../aegis-render" }
+aegis-ui = { path = "../aegis-ui" }

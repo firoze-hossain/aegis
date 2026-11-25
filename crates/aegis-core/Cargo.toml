@@ -1,0 +1,12 @@
+[package]
+name = "aegis-core"
+version = "1.0.0"
+edition = "2021"
+authors = ["NovaOS Enterprise Architecture Team"]
+description = "Aegis Core: Hardware firmware inventory, GUID calculation, version comparisons, cryptographic checksums, and update pipelines"
+
+[dependencies]
+
+[features]
+default = ["std"]
+std = []

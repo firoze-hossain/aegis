@@ -1,0 +1,13 @@
+[package]
+name = "aegis-storage"
+version = "1.0.0"
+edition = "2021"
+authors = ["NovaOS Enterprise Architecture Team"]
+description = "Aegis Storage: Hardware firmware configuration, policy persistence, and update records"
+
+[dependencies]
+aegis-core = { path = "../aegis-core" }
+
+[features]
+default = ["std"]
+std = []

@@ -1,0 +1,13 @@
+[package]
+name = "aegis-render"
+version = "1.0.0"
+edition = "2021"
+authors = ["NovaOS Enterprise Architecture Team"]
+description = "Aegis Render: 2D software double-buffered vector rasterizer for firmware hardware topology and flash progress dialogs"
+
+[dependencies]
+aegis-core = { path = "../aegis-core" }
+
+[features]
+default = ["std"]
+std = []

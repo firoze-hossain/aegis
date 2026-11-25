@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "crates/aegis-core",
+    "crates/aegis-storage",
+    "crates/aegis-render",
+    "crates/aegis-ui",
+    "crates/aegis-app",
+]
+resolver = "2"
